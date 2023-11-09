@@ -124,15 +124,62 @@ body {
     align-items: center;
     justify-content: center;
 }
-.Rectangle-2 {
-    height: 624px;
-    background-color: #eff9ff;
-}
 .circle-2 {
     width: 45px;
     height: 45px;
     margin-left: 138px;
     background-color: white;
+}
+.reason {
+    height: 624px;
+    background-color: #eff9ff;
+}
+.reason__title {
+    padding-top: 30px;
+    margin: 30px auto ;
+    font-family: RobotoSlab;
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+.reason__container {
+    display: grid;
+}
+.reason__subtitle {
+   margin-top: 45px ;
+   font-family: RobotoSlab;
+   font-size: 1.8rem;
+   font-weight: bold;
+   line-height: 1.67;
+   text-align: center; 
+   color: black;
+}
+.reason__text {
+    margin: 0 70px;
+   font-family: Roboto;
+   font-size: 1.8rem;
+   line-height: 1.67;
+   text-align: center;
+   color: black; 
+}
+.more {
+    width: 184px;
+    height: 45px;
+    margin:45px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22.5px;
+    background-color: #f26002;
+    font-family: Roboto;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    font-weight: 500;
+    color:white ;
+   
+
 }
 
 .footer {
@@ -147,7 +194,9 @@ body {
 .footer__button {
     position: absolute;
     top: -20px;
-    transform: translate(50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     height: 45px;
     width: 45px;
     background-color: white;
@@ -199,3 +248,52 @@ body {
 .hearth {
     color: #f26002;
 }
+
+@media (min-width: 768px) and (max-width:1200px){
+    .main__cover {
+        height: 768px;
+    }
+    .main__title {
+        font-size: 8rem;
+    }
+    .main__subtitle {
+        font-size: 2.4rem;
+    }
+    .main__title__box2 {
+        font-size: 2.6rem;
+    }
+    .main__text {
+        font-size: 2rem;
+    }
+    .main__button2 {
+        width: 91px;
+
+    }
+    .footer {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .footer__nav{
+        display: flex;
+        justify-content: space-around;
+        width: 55%;
+    }
+    .footer__ul {
+        margin: 0;
+    }
+    .footer__elements {
+        margin: 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .año {
+        margin: 0;
+    }
+
+}
+display grid , 1 columna y 5 filas (pendiente de cambiar tamaños)
+grid para las tres cajas de texto. AL titulo le pongo margin 30 auto y se centra
