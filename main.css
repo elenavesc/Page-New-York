@@ -42,7 +42,8 @@ body {
 
 .main__cover {
   height: 568px;
-  background: url(./cover.jpg) no-repeat cover;
+  background: url(./cover.jpg) no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -406,6 +407,11 @@ body {
   .reason__text {
     font-size: 2rem;
   }
+
+  .more {
+    margin: 145px auto;
+  }
+
 
   .footer {
     height: 240px;
