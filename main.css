@@ -35,7 +35,8 @@ body {
 }
 .main__cover {
     height:568px;
-    background: url(./cover.jpg);
+    background: url(./cover.jpg)no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -259,6 +260,9 @@ body {
     .main__subtitle {
         font-size: 2.4rem;
     }
+    .main__rectangle {
+        height: 330px;
+    }
     .main__title__box2 {
         font-size: 2.6rem;
     }
@@ -268,6 +272,94 @@ body {
     .main__button2 {
         width: 91px;
 
+    }
+    .reason {
+        height: 397px;
+    }
+    .reason__title {
+        font-size: 2.6rem;
+    }
+    .reason__container {
+        grid-template-rows: 1;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .reason__subtitle {
+        font-size: 2.4rem;
+    }
+    .reason__text {
+        font-size: 2rem;
+    }
+    .footer {
+        height: 240px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .footer__nav{
+        display: flex;
+        justify-content: space-around;
+        width: 55%;
+    }
+    .footer__ul {
+        margin: 0;
+    }
+    .footer__elements {
+        margin: 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .año {
+        margin: 0;
+    }
+
+}
+@media (min-width: 1200px) {
+    .main__cover {
+        height: 768px;
+    }
+    .main__title {
+        font-size: 10rem;
+    }
+    .main__subtitle {
+        font-size: 2.4rem;
+    }
+    .main__rectangle {
+        height: 360px;
+        padding-left: 275px;
+        padding-top: 60px;
+    }
+    .main__subtitle2 {
+        font-size: 1.6rem;
+    }
+    .main__title__box2 {
+        font-size: 3.2rem;
+    }
+    .main__text {
+        font-size: 2rem;
+    }
+    .main__button2 {
+        width: 160px;
+
+    }
+    .reason {
+        padding-top: 60px;
+        height: 427px;
+    }
+    .reason__title {
+        font-size: 3.2rem;
+    }
+    .reason__container {
+        grid-template-rows: 1;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .reason__subtitle {
+        font-size: 2.4rem;
+    }
+    .reason__text {
+        font-size: 2rem;
     }
     .footer {
         display: flex;
@@ -295,5 +387,3 @@ body {
     }
 
 }
-display grid , 1 columna y 5 filas (pendiente de cambiar tamaños)
-grid para las tres cajas de texto. AL titulo le pongo margin 30 auto y se centra
