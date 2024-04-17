@@ -2,6 +2,11 @@
 
 Este repositorio contiene el código fuente de una landing page responsiva creada utilizando HTML y CSS. Se ha implementado el uso de media queries para adaptar la página a diferentes dispositivos y tamaños de pantalla.
 
+![Anonymus Proxy_page-0001](https://github.com/elenavesc/Page-New-York/assets/147326237/8f921cd9-c6c6-4801-99ce-ba2646a57548)
+
+
+
+
 ## Contenido del Repositorio
 
 El repositorio está organizado de la siguiente manera:
